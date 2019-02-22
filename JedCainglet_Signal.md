@@ -1,4 +1,4 @@
-# Pay Station
+# Signal - Fast, Simple, Secure Messaging
 
 ## Project Abstract
 Signal by Open Whisper Systems is a private messaging app available on Android and iOS devices, as well as on desktop. The open source repository in question is for the Android version of the app, as the majority of the code is in Java. The repo for the iOS version is mostly in Objective-C, while the repo for the desktop version is in JavaScript, with support for Windows, Mac, and Linux. Boasting the tagline "privacy that fits in your pocket", Signal is a fast, simple, and secure messaging service with extra emphasis on secure messaging. As an open source project supported by grants and donations, Signal has already been released in the app stores; however, the project is not yet complete, as there are bugs and issues to address within its various versions.
