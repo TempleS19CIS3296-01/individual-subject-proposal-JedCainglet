@@ -9,13 +9,13 @@ Signal by Open Whisper Systems is a private messaging app available on Android a
 This project is relevant to the course in the aspects of Version Control _(seeing how the code was created and revised over time, thus allowing us to identify the bugs as they appeared over time)_, Debugging _(being able to understand the code that other contributers have provided and being able to revise them)_, and Issue Tracking _(proposing issues that have been noticed through use of the project / debugging, as well as working on resolving issues that have already been noticed)_. Being an open source app, Signal gives us the opportunity to contribute to the design, development, and maintenance aspect of the project. Issues that have been brought up in the repository range from UI bugs to network connectivity and transmission issues. 
 
 ## Conceptual Design
-A contribution that I would like to take part in is to resolve one of the issues, particularly one that involves phone networking. Issue number 8625, _Messages marked as "failed to send" are delivered_ was the issue I had in mind. The issue was well-documented with screenshots and error logs of the incident, as well as descriptions of the phenomenon taking place between the devices. Essentially, a user was sending a message to one of his contacts, and while his phone gave him the error that the message did not send, his contact received the message. More details can be found in the issue itself (link provided in the background section below).
+A contribution that I would like to take part in is to resolve one of the issues. Issue number 8674, _Time of received message is shown in local time of sender instead of receiver_ was the issue I had in mind. The bug was verified from another user that the issue exists not just on a local level, meaning that other users are having the same issue. The user was sending messages to someone from a different time zone, and the timestamps of the replies he received were the timestamps of the other time zone, not his. More details can be found in the issue itself (link provided in the background section below).
 
-For this project, I would need interested teammates preferably with Android devices, although having iOS devices would also come in handy in order to cover all the bases. One teammate in particular would need a Samsung GT-N7100 phone, as the device in question was of that model. I realize that this may be too narrow of a requirement for this project to continue, so if those interested do not have this specific phone model, we can tackle another open issue in the repository.
+For this project, I would need interested teammates preferably with Android devices, although having iOS devices would also come in handy in order to cover all the bases. In the case that this issue has been resolved in advance, I would still be interested in pursuing another open issue.
 
 ## Background
 https://github.com/signalapp/Signal-Android
 
-https://github.com/signalapp/Signal-Android/issues/8625
+https://github.com/signalapp/Signal-Android/issues/8674
 
 https://signal.org/
